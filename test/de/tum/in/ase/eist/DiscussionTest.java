@@ -1,5 +1,6 @@
 package de.tum.in.ase.eist;
 
+import org.easymock.EasyMock;
 import org.easymock.EasyMockExtension;
 import org.easymock.Mock;
 import org.easymock.TestSubject;
@@ -16,5 +17,20 @@ import static org.junit.jupiter.api.Assertions.*;
 public class DiscussionTest {
 
     // TODO implement the tests
+    @TestSubject
+    Discussion discussion;
+
+    @Mock
+    Course courseMock;
+
+    @Mock
+    Comment commentMock;
+
+    @Test
+    public void testComment() {
+//        Comment easyMock;
+//        Discussion discussion = new Discussion();
+//        discussion.addComment(easyMock);
+    }
 
 }
