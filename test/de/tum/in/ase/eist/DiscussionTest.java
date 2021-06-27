@@ -29,7 +29,7 @@ public class DiscussionTest {
     @Test
     public void testComment() {
         commentMock.save();
-        discussion.getComments();
+        discussion.setTopic("s");
         courseMock.getNumberOfAttendees();
     }
 
