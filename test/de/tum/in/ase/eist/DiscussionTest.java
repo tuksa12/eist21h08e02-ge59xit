@@ -18,19 +18,25 @@ public class DiscussionTest {
 
     // TODO implement the tests
     @TestSubject
-    Discussion discussion;
+    private Discussion discussion;
 
     @Mock
-    Course courseMock;
+     private Course courseMock;
 
     @Mock
-    Comment commentMock;
+    private Comment commentMock;
 
     @Test
     public void testComment() {
-//        Comment easyMock;
-//        Discussion discussion = new Discussion();
-//        discussion.addComment(easyMock);
+        commentMock.save();
     }
 
+    @Test
+    public void testCommentIfSavingFails() {
+    }
+
+    @Test
+    public void testStartCourseDiscussion() {
+
+    }
 }
