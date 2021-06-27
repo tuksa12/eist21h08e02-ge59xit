@@ -29,6 +29,8 @@ public class DiscussionTest {
     @Test
     public void testComment() {
         commentMock.save();
+        discussion.getComments();
+        courseMock.getNumberOfAttendees();
     }
 
     @Test
